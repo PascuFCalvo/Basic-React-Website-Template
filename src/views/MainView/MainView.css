@@ -1,9 +1,94 @@
+/* MainView.css */
+
+.main-container {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("../../assets/BackgroundMain.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 10;
+}
+
 .body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 70vw;
-    margin: 0 auto;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 1;
+}
 
+.LogoContainer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+h1,
+h2,
+p {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+p {
+    text-align: start;
+    text-wrap: balance;
+
+}
+
+h2,
+p {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.SectionGridContainer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .Description {
+        padding: 0 10px;
+    }
+
+    .SectionGridContainer {
+        padding: 0 10px;
+    }
 }

@@ -1,0 +1,36 @@
+{
+    "Projects": [
+        {
+            "imgSrc": "https://images.unsplash.com/photo-1592417817038-d13fd7342605?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjU5NTV8&ixlib=rb-4.0.3&q=85",
+            "subtitle": "Website",
+            "title": "Restaurant Website",
+            "description": "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
+            "sourceCodeLink": "https://github.com/",
+            "viewLink": "https://dribbble.com/"
+        },
+        {
+            "imgSrc": "https://images.unsplash.com/photo-1491172700640-4f1a131a3670?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjY2ODV8&ixlib=rb-4.0.3&q=85",
+            "subtitle": "App",
+            "title": "Yoga App",
+            "description": "Project that you carry out in the design and structure of the layout, showing the design at the client's request.",
+            "sourceCodeLink": "https://github.com/",
+            "viewLink": "https://dribbble.com/"
+        },
+        {
+            "imgSrc": "https://images.unsplash.com/photo-1533554510482-0eab47b296e0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjcwNjZ8&ixlib=rb-4.0.3&q=85",
+            "subtitle": "E-commerce",
+            "title": "Online Store",
+            "description": "Developed a comprehensive online store with payment integration and product management features.",
+            "sourceCodeLink": "https://github.com/",
+            "viewLink": "https://dribbble.com/"
+        },
+        {
+            "imgSrc": "https://images.unsplash.com/photo-1502767089025-6572583495b0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3NjcxMDJ8&ixlib=rb-4.0.3&q=85",
+            "subtitle": "Portfolio",
+            "title": "Personal Portfolio",
+            "description": "Created a personal portfolio to showcase various projects, skills, and professional achievements.",
+            "sourceCodeLink": "https://github.com/",
+            "viewLink": "https://dribbble.com/"
+        }
+    ]
+}

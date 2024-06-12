@@ -1,26 +1,35 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
-import Logo from '../../components/Logo/Logo';
-import SectionLeft from '../../components/SectionLeft/SectionLeft';
-import SectionRight from '../../components/SectionRight/SectionRight';
-import './MainView.css';
 import Footer from '../../components/Footer/Footer';
-import articleData from "../../data/articulos.json"
+import "./MainView.css";
+import Logo from '../../components/Logo/Logo';
+import SectionGrid from '../../components/SectionGrid/SectionGrid';
 
-function MainView() {
+const MainView = () => {
     return (
-        <>
-            <Navbar />
-            <div className='body'>
-                <Logo alto="100px" ancho="300px" />
-                <SectionLeft img1={articleData[1].link_foto} text={articleData[1].noticia} />
-                <SectionRight img1={articleData[2].link_foto} text={articleData[2].noticia} />
-                <SectionLeft img1={articleData[3].link_foto} text={articleData[3].noticia} />
-                <SectionRight img1={articleData[4].link_foto} text={articleData[4].noticia} />
+        <div className="main-container">
+            <div className="navbar">
+                <Navbar />
+            </div>
+            <div className="body">
+                <div className="LogoContainer">
+                    <Logo className="Logo" alto="200px" ancho="600px" />
+                </div>
+                <h1 className="Title">Bienvenidos a la página de la empresa</h1>
+                <h2 className="Subtitle">Aquí encontrarás información sobre nuestros servicios y productos</h2>
+                <p className="Description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget justo et nunc
+                    lacinia elementum. Nullam nec odio sit amet justo ultricies lacinia. Nulla
+                    facilisi. Nullam nec odio sit amet justo ultricies lacinia. Nulla facilisi.
+                    Nullam nec odio sit amet justo ultricies lacinia. Nulla facilisi.
+                </p>
+                <div className='SectionGridContainer'>
+                    <SectionGrid />
+                </div>
             </div>
             <Footer />
-        </>
+        </div>
     );
-}
+};
 
 export default MainView;

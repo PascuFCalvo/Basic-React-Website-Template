@@ -1,0 +1,11 @@
+.GridContainer {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+}

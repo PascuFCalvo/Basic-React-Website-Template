@@ -1,9 +1,13 @@
 .NavbarLink {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    text-wrap: balance;
+    margin: 20px;
 }
 
 .NavbarLink:hover {
-    color: darkblue;
+    color: #efefef;
 }
