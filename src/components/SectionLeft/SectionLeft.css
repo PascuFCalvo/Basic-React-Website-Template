@@ -1,0 +1,19 @@
+.SectionLeft {
+    display: flex;
+    margin: 20px;
+
+}
+
+.SectionLeft img {
+    width: 500px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.TextSectionLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}

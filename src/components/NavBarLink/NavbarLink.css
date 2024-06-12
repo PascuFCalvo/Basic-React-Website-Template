@@ -1,0 +1,9 @@
+.NavbarLink {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.NavbarLink:hover {
+    color: darkblue;
+}

@@ -1,0 +1,34 @@
+{
+    "navbar": [
+        {
+            "id": 1,
+            "title": "Inicio",
+            "url": "/",
+            "icon": "home"
+        },
+        {
+            "id": 2,
+            "title": "Servicios",
+            "url": "/servicios",
+            "icon": "services"
+        },
+        {
+            "id": 3,
+            "title": "Nosotros",
+            "url": "/nosotros",
+            "icon": "about"
+        },
+        {
+            "id": 4,
+            "title": "Galeria",
+            "url": "/galeria",
+            "icon": "galeria"
+        },
+        {
+            "id": 5,
+            "title": "Contacto",
+            "url": "/contacto",
+            "icon": "contact"
+        }
+    ]
+}

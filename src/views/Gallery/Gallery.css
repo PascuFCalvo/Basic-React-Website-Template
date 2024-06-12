@@ -1,0 +1,23 @@
+.GalleryContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.Gallery img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
