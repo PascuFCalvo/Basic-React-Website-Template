@@ -7,6 +7,8 @@ import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import './Gallery.css';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 function Gallery() {
     const onInit = () => {
@@ -14,21 +16,24 @@ function Gallery() {
     };
 
     return (
-        <div className="GalleryContainer">
-            <div className="Gallery">
-                <LightGallery
-                    onInit={onInit}
-                    speed={500}
-                    plugins={[lgThumbnail, lgZoom]}
-                >
-                    {Images.images.map((image) => (
-                        <a key={image.id} href={image.url}>
-                            <img alt={`img${image.id}`} src={image.url} />
-                        </a>
-                    ))}
-                </LightGallery>
+        <><Navbar />
+            <div className="GalleryContainer">
+                <div className="Gallery">
+                    <LightGallery
+                        onInit={onInit}
+                        speed={500}
+                        plugins={[lgThumbnail, lgZoom]}
+                    >
+                        {Images.images.map((image) => (
+                            <a key={image.id} href={image.url}>
+                                <img alt={`img${image.id}`} src={image.url} />
+                            </a>
+                        ))}
+                    </LightGallery>
+                </div>
             </div>
-        </div>
+            <Footer /></>
+
     );
 }
 

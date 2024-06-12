@@ -4,7 +4,7 @@ import Logo from '../../components/Logo/Logo';
 import SectionLeft from '../../components/SectionLeft/SectionLeft';
 import SectionRight from '../../components/SectionRight/SectionRight';
 import './MainView.css';
-
+import Footer from '../../components/Footer/Footer';
 import articleData from "../../data/articulos.json"
 
 function MainView() {
@@ -18,6 +18,7 @@ function MainView() {
                 <SectionLeft img1={articleData[3].link_foto} text={articleData[3].noticia} />
                 <SectionRight img1={articleData[4].link_foto} text={articleData[4].noticia} />
             </div>
+            <Footer />
         </>
     );
 }
