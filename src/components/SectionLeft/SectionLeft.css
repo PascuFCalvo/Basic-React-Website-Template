@@ -1,13 +1,16 @@
 .SectionLeft {
     display: flex;
-    margin: 20px;
+    flex-direction: row;
+    align-items: center;
 
+    flex-wrap: wrap;
 }
 
 .SectionLeft img {
-    width: 500px;
+    max-width: 45%;
     object-fit: cover;
-    margin-right: 50px;
+    margin-right: 40px;
+
 }
 
 .TextSectionLeft {
@@ -15,6 +18,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-    min-width: 300px;
+    flex: 1;
+    min-width: 200px;
+    margin-left: 20px;
 }
+

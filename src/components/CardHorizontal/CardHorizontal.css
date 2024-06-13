@@ -9,6 +9,7 @@
     transition: transform 0.3s ease;
     background-color: white;
     max-width: 600px;
+    min-width: 400px;
     /* Define el ancho máximo */
     max-height: 400px;
     /* Define el alto máximo */
@@ -21,7 +22,7 @@
 .projects__container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
+    gap: 10px;
     height: 100%;
 }
 
@@ -31,23 +32,13 @@
 
 .projects__img {
     width: 100%;
-    height: auto;
-    max-height: 100%;
-    /* Asegura que la imagen no exceda el alto del contenedor */
-    border-radius: 10px 0 0 10px;
+    height: 100%;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
 }
 
-.projects__button {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: #ff6347;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
+
 
 .projects__button:hover {
     background-color: #e55347;
@@ -84,10 +75,11 @@
 
 .projects__link {
     text-decoration: none;
-    color: #007bff;
-    font-size: 14px;
+    color: #000000;
+    font-size: 16px;
     display: flex;
     align-items: center;
+    margin: 10px
 }
 
 .projects__link i {

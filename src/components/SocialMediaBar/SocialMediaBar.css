@@ -1,0 +1,21 @@
+.SocialMediaBar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    z-index: 2;
+    width: 100vw;
+    ;
+}
+
+.socialIcon {
+    width: 40px;
+    margin: 20px;
+    font-size: 30px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.socialIcon:hover {
+    transform: rotate(10deg);
+    transition: all 0.3s;
+}

@@ -1,13 +1,18 @@
+/* SectionRight.css */
+
 .SectionRight {
     display: flex;
-    margin: 20px;
-
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .SectionRight img {
-    width: 500px;
+    min-width: 400px;
+    max-width: 45%;
     object-fit: cover;
-    margin-left: 50px;
+    margin-left: 40px;
+
 }
 
 .TextSectionRight {
@@ -15,6 +20,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-    min-width: 300px;
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
 }
+
+/* Responsive adjustments */
+

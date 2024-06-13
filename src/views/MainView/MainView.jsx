@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer';
 import "./MainView.css";
 import Logo from '../../components/Logo/Logo';
 import SectionGrid from '../../components/SectionGrid/SectionGrid';
+import SocialMediaBar from '../../components/SocialMediaBar/SocialMediaBar';
 
 const MainView = () => {
     return (
@@ -12,6 +13,7 @@ const MainView = () => {
                 <Navbar />
             </div>
             <div className="body">
+            <SocialMediaBar />
                 <div className="LogoContainer">
                     <Logo className="Logo" alto="200px" ancho="600px" />
                 </div>
@@ -23,6 +25,7 @@ const MainView = () => {
                     facilisi. Nullam nec odio sit amet justo ultricies lacinia. Nulla facilisi.
                     Nullam nec odio sit amet justo ultricies lacinia. Nulla facilisi.
                 </p>
+                <h1 className="Title">Nuestros productos</h1>
                 <div className='SectionGridContainer'>
                     <SectionGrid />
                 </div>
