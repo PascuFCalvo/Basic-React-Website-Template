@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Logo from '../../components/Logo/Logo';
 import SectionLeft from '../../components/SectionLeft/SectionLeft';
